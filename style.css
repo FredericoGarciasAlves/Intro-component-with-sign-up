@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 144rem;
+    height: 80rem;
+    background: url(./assets/images/bg-intro-desktop.png) rgb(255, 121, 121);
+    padding: 12rem 16.5rem;
+    display: flex;
+    column-gap: 4.5rem;
+    font-family: "Poppis", sans-serif;
+}
+
+.main .description {
+    width: 52.5rem;
+    height: 54rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main .description .title {
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.main .description .text {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-top: 2.7rem;
+    text-align: left;
+    line-height: 2.8rem;
+}
+
+.main .box-form .link-promo {
+    text-decoration: none;
+}
+
+.main .box-form .link-promo .promo-text {
+    width: 54rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #5e54a4;
+    font-size: 1.6rem;
+    border-radius: 0.9rem;
+    box-shadow: 0rem 0.9rem 0rem rgba(0, 0, 0, 0.16);
+}
+
+.main .box-form .link-promo .promo-text .try-free {
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.main .box-form .form {
+    width: 54rem;
+    height: auto;
+    background-color: #ffffff;
+    padding: 2rem 4rem 4rem 4rem;
+    margin-top: 2.4rem;
+    border-radius: 0.9rem;
+    box-shadow: 0rem 0.9rem 0rem rgba(61, 49, 52, 0.16);
+}
+
+.main .box-form .form .box-inputs {
+    width: 46rem;
+    height: 5.6rem;
+    position: relative;
+    margin-top: 2.1rem;
+}
+
+.main .box-form .form .box-inputs .inputs {
+    padding: 1.6rem 3.2rem;
+    width: 46rem;
+    height: 5.6rem;
+    border-radius: 0.6rem;
+    border: 0.1px solid rgb(230, 230, 230);
+    font-size: 1.8rem;
+}
+
+.main .box-form .form .box-inputs .inputs::placeholder {
+    font-size: 1.8rem;
+    color: #3d3b48;
+}
+
+.main .box-form .form .alert-message {
+    text-align: right;
+    color: #ff7979;
+    font-style: italic;
+    margin-top: 0.6rem;
+}
+
+.main .box-form .form .icon-alert {
+    position: absolute;
+    right: 3rem;
+    top: 30%;
+}
+
+.main .box-form .form .btn-submit {
+    width: 46rem;
+    height: 4.6rem;
+    background-color: #38cc8b;
+    border: none;
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.main .box-form .form .text-t-s {
+    margin-top: 1.3rem;
+    color: #bab7d4;
+    text-align: center;
+}
+
+.main .box-form .form .t-s {
+    color: #ff7979;
+}
